@@ -41,7 +41,7 @@ class CoreAsset extends AssetBundle
      * @var array
      */
     public $css = [
-        'main.min.css',
+        'fullcalendar.min.css',
     ];
 
     /**
@@ -49,7 +49,7 @@ class CoreAsset extends AssetBundle
      * @var array
      */
     public $js = [
-        'main.js',        
+        'fullcalendar.min.js',
         'locale-all.js',
     ];
     
@@ -59,7 +59,8 @@ class CoreAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\YiiAsset',
-        'yii2fullcalendar\PrintAsset'
+        'yii2fullcalendar\PrintAsset',
+        'yii2fullcalendar\MomentAsset'
     ];
 
     /**

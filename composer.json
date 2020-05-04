@@ -16,8 +16,8 @@
 	},
 	"minimum-stability": "stable",
 	"require": {
-		"yiisoft/yii2": "*",
-		"yiisoft/yii-jquery" : "*",
+		"yiisoft/yii2": ">=2.0.14",
+		"yiisoft/yii-jquery" : "^2.0",
         "fullcalendar/fullcalendar": "^3.10",
         "moment/moment": "^2.25"
 	},
