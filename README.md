@@ -1,5 +1,7 @@
 yii2fullcalendar
 ================
+This is fork from [philippfrenzel/yii2fullcalendar](https://github.com/philippfrenzel/yii2fullcalendar) with some minor asset changes  
+
 JQuery Fullcalendar Yii2 Extension
 JQuery from: http://arshaw.com/fullcalendar/
 Version 4.0.2
@@ -23,12 +25,12 @@ Package is although registered at packagist.org - so you can just add one line o
 
 add the following line to your composer.json require section:
 ```json
-  "philippfrenzel/yii2fullcalendar":"*",
+  "jaxwifi/yii2fullcalendar":"*",
 ```
 
 or run:
 ```
-$ php composer.phar require philippfrenzel/yii2fullcalendar "*"
+$ php composer.phar require jaxwifi/yii2fullcalendar "*"
 ```
 
 And ensure, that you have the following plugin installed global:
