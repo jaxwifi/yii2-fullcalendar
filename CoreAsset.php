@@ -59,6 +59,7 @@ class CoreAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\YiiAsset',
+        'yii\jui\JuiAsset',
         'yii2fullcalendar\PrintAsset',
         'yii2fullcalendar\MomentAsset'
     ];
