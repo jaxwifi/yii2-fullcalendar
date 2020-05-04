@@ -1,5 +1,5 @@
 {
-	"name": "jaxwifi/yii2fullcalendar",
+	"name": "jaxwifi/yii2-fullcalendar",
 	"description": "Yii2 fullcalendar Widgets (philippfrenzel fork)",
 	"keywords": ["yii2", "fullcalendar","widget"],
 	"homepage": "http://www.frenzel.net/",
@@ -12,7 +12,7 @@
 		}
 	],
 	"support": {
-		"source": "https://github.com/jaxwifi/yii2fullcalendar"
+		"source": "https://github.com/jaxwifi/yii2-fullcalendar"
 	},
 	"minimum-stability": "stable",
 	"require": {

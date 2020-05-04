@@ -1,4 +1,4 @@
-yii2fullcalendar
+yii2-fullcalendar
 ================
 This is fork from [philippfrenzel/yii2fullcalendar](https://github.com/philippfrenzel/yii2fullcalendar) with some minor asset changes  
 
@@ -14,9 +14,9 @@ Yii2 Extension by <philipp@frenzel.net>
 A tiny sample can be found here:
 http://yii2fullcalendar.beeye.org
 
-[![Latest Stable Version](https://poser.pugx.org/jaxwifi/yii2fullcalendar/v/stable.svg)](https://packagist.org/packages/jaxwifi/yii2fullcalendar)
-[![Build Status](https://travis-ci.org/jaxwifi/yii2fullcalendar.svg?branch=master)](https://travis-ci.org/jaxwifi/yii2fullcalendar)
-[![License](https://poser.pugx.org/jaxwifi/yii2fullcalendar/license.svg)](https://packagist.org/packages/jaxwifi/yii2fullcalendar)
+[![Latest Stable Version](https://poser.pugx.org/jaxwifi/yii2-fullcalendar/v/stable.svg)](https://packagist.org/packages/jaxwifi/yii2-fullcalendar)
+[![Build Status](https://travis-ci.org/jaxwifi/yii2-fullcalendar.svg?branch=master)](https://travis-ci.org/jaxwifi/yii2-fullcalendar)
+[![License](https://poser.pugx.org/jaxwifi/yii2-fullcalendar/license.svg)](https://packagist.org/packages/jaxwifi/yii2-fullcalendar)
 
 Installation
 ============
@@ -24,12 +24,12 @@ Package is although registered at packagist.org - so you can just add one line o
 
 add the following line to your composer.json require section:
 ```json
-  "jaxwifi/yii2fullcalendar":"*",
+  "jaxwifi/yii2-fullcalendar":"*",
 ```
 
 or run:
 ```
-$ php composer.phar require jaxwifi/yii2fullcalendar "*"
+$ php composer.phar require jaxwifi/yii2-fullcalendar "*"
 ```
 
 And ensure, that you have the following plugin installed global:
@@ -53,7 +53,7 @@ Quickstart Looks like this:
 
   $events = array();
   //Testing
-  $Event = new \yii2fullcalendar\models\Event();
+  $Event = new \yii2-fullcalendar\models\Event();
   $Event->id = 1;
   $Event->title = 'Testing';
   $Event->start = date('Y-m-d\TH:i:s\Z');
@@ -63,7 +63,7 @@ Quickstart Looks like this:
   ];
   $events[] = $Event;
 
-  $Event = new \yii2fullcalendar\models\Event();
+  $Event = new \yii2-fullcalendar\models\Event();
   $Event->id = 2;
   $Event->title = 'Testing';
   $Event->start = date('Y-m-d\TH:i:s\Z',strtotime('tomorrow 6am'));
@@ -71,7 +71,7 @@ Quickstart Looks like this:
 
   ?>
 
-  <?= \yii2fullcalendar\yii2fullcalendar::widget(array(
+  <?= \yii2-fullcalendar\yii2-fullcalendar::widget(array(
       'events'=> $events,
   ));
 ```
@@ -92,7 +92,7 @@ If you wanna use ajax loader, this could look like this:
 # 20171023 ajaxEvents are replaced by events - pls. check fullcalendar io documentation for details
 
 ```php
-<?= yii2fullcalendar\yii2fullcalendar::widget([
+<?= yii2-fullcalendar\yii2-fullcalendar::widget([
       'options' => [
         'lang' => 'de',
         //... more options to be defined here!
@@ -115,7 +115,7 @@ public function actionJsoncalendar($start=NULL,$end=NULL,$_=NULL){
 
     foreach ($times AS $time){
       //Testing
-      $Event = new \yii2fullcalendar\models\Event();
+      $Event = new \yii2-fullcalendar\models\Event();
       $Event->id = $time->id;
       $Event->title = $time->categoryAsString;
       $Event->start = date('Y-m-d\TH:i:s\Z',strtotime($time->date_start.' '.$time->time_start));
