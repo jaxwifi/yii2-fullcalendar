@@ -1,6 +1,6 @@
 {
-	"name": "philippfrenzel/yii2fullcalendar",
-	"description": "Yii2 fullcalendar Widgets",
+	"name": "jaxwifi/yii2fullcalendar",
+	"description": "Yii2 fullcalendar Widgets (philippfrenzel fork)",
 	"keywords": ["yii2", "fullcalendar","widget"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "yii2-extension",
