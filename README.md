@@ -3,8 +3,8 @@ yii2fullcalendar
 This is fork from [philippfrenzel/yii2fullcalendar](https://github.com/philippfrenzel/yii2fullcalendar) with some minor asset changes  
 
 JQuery Fullcalendar Yii2 Extension
-JQuery from: http://arshaw.com/fullcalendar/
-Version 4.0.3
+JQuery from: http://arshaw.com/fullcalendar/  
+Version 4.0.3  
 License MIT
 
 JQuery Documentation:
