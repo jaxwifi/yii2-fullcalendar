@@ -14,9 +14,9 @@ Yii2 Extension by <philipp@frenzel.net>
 A tiny sample can be found here:
 http://yii2fullcalendar.beeye.org
 
-[![Latest Stable Version](https://poser.pugx.org/jaxwifi/yii2fullcalendar/v/stable.svg)](https://packagist.org/packages/philippfrenzel/yii2fullcalendar)
-[![Code Climate](https://codeclimate.com/github/philippfrenzel/yii2fullcalendar.png)](https://codeclimate.com/github/philippfrenzel/yii2fullcalendar)
-[![License](https://poser.pugx.org/philippfrenzel/yii2fullcalendar/license.svg)](https://packagist.org/packages/philippfrenzel/yii2fullcalendar)
+[![Latest Stable Version](https://poser.pugx.org/jaxwifi/yii2fullcalendar/v/stable.svg)](https://packagist.org/packages/jaxwifi/yii2fullcalendar)
+[![Build Status](https://travis-ci.org/jaxwifi/yii2fullcalendar.svg?branch=master)](https://travis-ci.org/jaxwifi/yii2fullcalendar)
+[![License](https://poser.pugx.org/jaxwifi/yii2fullcalendar/license.svg)](https://packagist.org/packages/jaxwifi/yii2fullcalendar)
 
 Installation
 ============
